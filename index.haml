@@ -1,0 +1,193 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{charset:"utf-8"}/
+    %meta{content:"IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content:"width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Kramer
+    %link{href:"http://fonts.googleapis.com/css?family=Droid+Sans:400,700", rel:"stylesheet", type:"text/css"}/
+    %link{href:'http://fonts.googleapis.com/css?family=Droid+Serif', rel:'stylesheet', type:'text/css'}/
+    / Bootstrap
+    %link{href:"style/bootstrap.min.css", rel:"stylesheet"}/
+    %link{href:"style/main.css", rel:"stylesheet"}/
+    %link{href:"style/media.css", rel:"stylesheet"}/
+
+  %body
+    %header.header
+      .container
+        .navbar-header.navbar-inverse
+          %button.navbar-toggle.collapsed{"data-target" => "#navbar", "data-toggle" => "collapse", type:"button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+        #navbar.collapse.navbar-collapse
+          %nav.text-center.nav
+            %ul.list-inline
+              %li
+                %a{href:""} Home
+              %li
+                %a{href:""} Work
+              %li
+                %a{href:""} Clients
+              %li
+                %a.active{href:""} Blog
+              %li
+                %a{href:""} Connect
+    .wrapper
+      %main.content{role:"main", "data-same-height" => "blog-info"}
+        %section.content-list
+          %article
+            %h2 Wooden performance
+            %span.publication-date August 7, 2013
+            %p
+              If an advertiser drops a ball in the forest, does it make a sound?
+              This conundrum seems to have been cleared up by a
+              %a{href:""} Japanese mobile phone manufacturer.
+              In this automated extravaganza, a tiny wooden ball descends a wooden ramp.
+              The result is an amazing rendition of Bach’s Jesu, Joy of Man’s Desiring.
+              All this to promote a kidney-shaped smartphone with the tagline, “Touch Wood.”
+            %a.social-button{href:""}Social link
+            .embed-responsive.embed-responsive-16by9
+              %iframe.embed-responsive-item{"allowfullscreen" => "", :src => "https://www.youtube.com/embed/DzXtTdsJLtQ"}
+          %article
+            %h2 Jack Crossing
+            %span.publication-date August 7, 2013
+            %p
+              While window shopping this morning on Behance,
+              I ran across some stunning photographic pieces by designer Jack Crossing.
+              Very nice, surreal imagery.
+              Makes me long for the days of album art.
+            %a.social-button{href:""}Social link
+            %img{src:"img/article-img.jpg", alt:""}
+          .pagination
+            %a.prev{href:""} Old
+            %a.next{href:""} New
+      %aside.sidebar{"data-same-height" => "blog-info"}
+        .aside-wrap
+          %article
+            %p.title Brand 66: Exploring Design
+            %p
+              One small step for step for design blogs.
+              Brand66 is on a mission to uncover design trends and examples of brilliant thinking,
+              be they in distant lands or closer to home.
+          %article.subscribe
+            %p.title Subscribe
+            %p Brand66 delivered fresh to your inbox
+            %form.form-inline
+              %input{type:"email", placeholder:"Email address"}
+              %input{type:"submit", value:""}
+            %ul.list-inline
+              %li
+                %a.subscribe-rss-btn{href:""}
+              %li
+                %a.subscribe-linkedin-btn{href:""}
+              %li
+                %a.subscribe-twitter-btn{href:""}
+          %article.recent
+            %p.title Recent
+            %ul
+              %li
+                %a{href:""} Wooden performance
+              %li
+                %a{href:""} Jack Crossing
+              %li
+                %a{href:""} The world’s hippest sculptures
+              %li
+                %a{href:""} Pint-sized food trucks
+              %li
+                %a{href:""} HUSH The Series
+              %li
+                %a{href:""} Packaging in quarter notes
+              %li
+                %a{href:""} The other Facetime
+              %li
+                %a{href:""} Toronto Film Festival poster
+              %li
+                %a{href:""} Water
+              %li
+                %a{href:""} Just a Pinch
+              %li
+                %a{href:""} Neon leaves the pool hall
+              %li
+                %a{href:""} A novel vase
+              %li
+                %a{href:""} MRI goes organic
+              %li
+                %a{href:""} Big Data walks the red carpet
+              %li
+                %a{href:""} Chromatic Typewriter
+              %li
+                %a{href:""} Tattoo illusion
+              %li
+                %a{href:""} Nike window display madness
+              %li
+                %a{href:""} 3 Ways Apple Innovates
+              %li
+                %a{href:""} H2 oh my
+              %li
+                %a{href:""} More GIF fun
+              %li
+                %a{href:""} Pentagram’s romantic side
+              %li
+                %a{href:""} Skullboard
+              %li
+                %a{href:""} Gummy luminescence
+              %li
+                %a{href:""} Minimalist castles
+              %li
+                %a{href:""} Rocking Knit
+              %li
+                %a{href:""} Reinventing a not-so-fab logo
+              %li
+                %a{href:""} Green Automobiles
+              %li
+                %a{href:""} Moonrise GIF
+              %li
+                %a{href:""} Electronic shoes
+              %li
+                %a{href:""} 007
+          %article.search
+            %p.title Search
+            %form.form-inline
+              %input{type:"search"}
+              %input{type:"submit", value:""}
+      %a.aside-btn{href:""}
+
+
+    %footer.footer
+      .top-footer.text-center
+        %ul.list-inline
+          %li
+            %a.foot-linkedin-btn{href:""}
+          %li
+            %a.foot-twitter-btn{href:""}
+          %li
+            %a.foot-email-btn{href:""}
+      .bottom-footer
+        .bot-foot-wrap
+          %nav.footer-nav.text-center
+            %ul.list-inline
+              %li
+                %a{href:""} Home
+              %li
+                %a{href:""} Work
+              %li
+                %a{href:""} Clients
+              %li
+                %a.active{href:""} Blog
+              %li
+                %a{href:""} Connect
+          %p.copyright
+            &copy;2013 Rylander Design
+
+
+
+
+
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+    / Include all compiled plugins (below), or include individual files as needed
+    %script{:src => "js/bootstrap.min.js"}
+    %script{src:"js/sstu_script.js"}
+    %script{src:"js/maintainSameHeight.js"}

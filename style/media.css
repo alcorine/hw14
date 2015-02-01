@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+    .container .navbar-collapse {
+        background: #222;
+    }
+    .nav li {
+        display: block;
+    }
+    .nav li:hover {
+        background: #4e4e4e;
+    }
+}
+@media (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+    .aside-btn {
+        display: block;
+    }
+    .content {
+        padding-right: 11%;
+    }
+    .copyright {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+    .footer-nav {
+        display: block;
+    }
+}
+@media (min-width: 800px) {
+    .sidebar {
+        display: block !important;
+    }
+}
+@media (min-width: 500px) {
+    .footer-nav {
+        float: right;
+    }
+    .copyright {
+        float: left;
+    }
+}
