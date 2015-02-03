@@ -39,7 +39,7 @@ body
       margin 0 10px
       a
         color #909090
-        font-size 20px
+        font-size 15px
         &:hover
           color #fff
       .active
@@ -47,10 +47,10 @@ body
 
 .content
   position relative
-  width 100%
-  padding-right 38%
-  display inline-block
-
+  width 60%
+  /*padding-right 38%*/
+  /*display inline-block*/
+  float left
 
 .content-list
   text-align left
@@ -59,7 +59,7 @@ body
   article
     padding 45px 0
     border-bottom  1px solid #bababa
-  h2
+  h1
     font-size 32px
     font-weight normal
   p
@@ -135,7 +135,8 @@ body
     padding 45px 0
     border-bottom  1px solid #bababa
     color #5b5b5b
-  .title
+  h4
+    font-size 15px
     color #000000
     font-weight bolder
 
@@ -154,6 +155,8 @@ body
   background url("../img/swipe.png") #f6f6f6 center 20px no-repeat;
 
 .subscribe
+  ul
+    margin-top 35px
   form
     input[type=email]
       border none
@@ -172,7 +175,6 @@ body
 .subscribe-rss-btn, .subscribe-linkedin-btn, .subscribe-twitter-btn
   width 31px
   height 31px
-  margin 35px 0 0
   display block
 
 .subscribe-rss-btn
@@ -246,3 +248,5 @@ body
   color #a5ccea
   a
     color #a5ccea
+.copyright
+  display block

@@ -18,6 +18,8 @@
     }
     .content {
         padding-right: 11%;
+        float: none;
+        width: 88%;
     }
     .copyright {
         float: none;

@@ -39,7 +39,7 @@ body {
 }
 .header .nav li a {
   color: #909090;
-  font-size: 20px;
+  font-size: 15px;
 }
 .header .nav li a:hover {
   color: #fff;
@@ -49,9 +49,10 @@ body {
 }
 .content {
   position: relative;
-  width: 100%;
-  padding-right: 38%;
-  display: inline-block;
+  width: 60%;
+/*padding-right 38%*/
+/*display inline-block*/
+  float: left;
 }
 .content-list {
   text-align: left;
@@ -62,7 +63,7 @@ body {
   padding: 45px 0;
   border-bottom: 1px solid #bababa;
 }
-.content-list h2 {
+.content-list h1 {
   font-size: 32px;
   font-weight: normal;
 }
@@ -145,7 +146,8 @@ body {
   border-bottom: 1px solid #bababa;
   color: #5b5b5b;
 }
-.sidebar .title {
+.sidebar h4 {
+  font-size: 15px;
   color: #000;
   font-weight: bolder;
 }
@@ -162,6 +164,9 @@ body {
   height: 100%;
   z-index: 6;
   background: url("../img/swipe.png") #f6f6f6 center 20px no-repeat;
+}
+.subscribe ul {
+  margin-top: 35px;
 }
 .subscribe form input[type=email] {
   border: none;
@@ -183,7 +188,6 @@ body {
 .subscribe-twitter-btn {
   width: 31px;
   height: 31px;
-  margin: 35px 0 0;
   display: block;
 }
 .subscribe-rss-btn {
@@ -261,4 +265,7 @@ body {
 .copyright a,
 .footer-nav a {
   color: #a5ccea;
+}
+.copyright {
+  display: block;
 }
